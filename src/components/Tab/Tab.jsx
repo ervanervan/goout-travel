@@ -9,25 +9,25 @@ export default function Tab() {
   };
 
   return (
-    <div className="mx-20">
-      <div className="">
-        <div className="">
+    <div className="mx-7 md:mx-12 xl:mx-20">
+      <div>
+        <div>
           <button
             onClick={() => changeTab("Flight")}
-            className={`py-3 px-6 rounded-tl-xl sm:text-[18px] text-base font-medium ${
+            className={`py-3 px-6 rounded-tl-xl text-sm xl:text-base font-medium ${
               activeTab === "Flight"
                 ? "bg-bgPrimary text-textWhite"
-                : "bg-bgDarkGray text-textPrimary"
+                : "bg-bgGray text-textPrimary"
             }`}
           >
             Flight
           </button>
           <button
             onClick={() => changeTab("Hotel")}
-            className={`py-3 px-6 rounded-tr-xl sm:text-[18px] text-base font-medium ${
+            className={`py-3 px-6 rounded-tr-xl text-sm xl:text-base font-medium ${
               activeTab === "Hotel"
                 ? "bg-bgPrimary text-textWhite"
-                : "bg-bgDarkGray text-textPrimary"
+                : "bg-bgGray text-textPrimary"
             }`}
           >
             Hotel

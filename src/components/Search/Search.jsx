@@ -7,20 +7,22 @@ import iconChair from "../../assets/icon-chair.svg";
 
 export default function () {
   return (
-    <div className="py-7 bg-bgWhite rounded-b-xl rounded-tr-xl">
-      <div className="grid grid-cols-4 items-center justify-center">
-        <div className="px-8 flex gap-4 items-center justify-between">
+    <div className="md:py-2 xl:py-7 bg-bgWhite rounded-b-xl rounded-tr-xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 items-center justify-center">
+        <div className="md:px-8 px-4 flex gap-4 items-center justify-between">
           <img src={iconMap} alt="" />
           <div>
             <select
               id="location"
               name="location"
               autoComplete="location-name"
-              className="w-full rounded-md py-1 text-textNavy text-base appearance-none font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
+              className="w-full rounded-md py-2 md:py-1 text-textNavy text-sm xl:text-base appearance-none font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
             >
               <option>NTB, Lombok</option>
               <option>Ubud, Bali</option>
-              <option>Kepulauan Seribu, Jakarta</option>
+              <option>Bali, Nusa Penida</option>
+              <option>Sumatera Utara, Danau Toba</option>
+              <option>Jawa Tengah, Candi Borobudur</option>
             </select>
             <label className="text-xs text-textGray">
               Select the locations
@@ -28,26 +30,26 @@ export default function () {
           </div>
           <img src={iconGps} alt="" />
         </div>
-        <div className="px-8 flex gap-4 items-center justify-between">
+        <div className="md:px-8 px-4 flex gap-4 items-center justify-between">
           <img src={iconCalendar} alt="" />
           <div className="">
             <input
               placeholder="Select a date"
               type="date"
-              className="w-full rounded-md py-1 text-textNavy text-base font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
+              className="w-full rounded-md py-2 md:py-1 text-textNavy text-sm xl:text-base font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
             />
             <label className="text-xs text-textGray">Choose Flight Date</label>
           </div>
           <img src={iconGps} alt="" />
         </div>
-        <div className="px-8 flex gap-4 items-center justify-between">
+        <div className="md:px-8 px-4 flex gap-4 items-center justify-between">
           <img src={iconChair} alt="" />
           <div className="">
             <select
               id="flighttype"
               name="flighttype"
               autoComplete="flight-type"
-              className="w-full rounded-md py-1 text-textNavy text-base appearance-none font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
+              className="w-full rounded-md py-2 md:py-1 text-textNavy text-sm xl:text-base appearance-none font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
             >
               <option>Economy</option>
               <option>Basic Economy</option>
@@ -61,7 +63,7 @@ export default function () {
           </div>
           <img src={iconGps} alt="" />
         </div>
-        <div className="px-8 flex flex-col">
+        <div className="md:px-8 px-4 flex flex-col">
           <Button isPrimary>Search Flight</Button>
         </div>
       </div>
