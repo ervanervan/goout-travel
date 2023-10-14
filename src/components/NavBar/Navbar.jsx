@@ -9,7 +9,7 @@ export default function Navbar() {
       <nav className="flex items-center justify-between">
         <div className="flex items-center justify-center gap-2">
           <img src={logo} alt="logo goout" />
-          <h2 className="font-semibold text-textPrimary text-2xl">Goout</h2>
+          <h2 className="font-semibold text-textPrimary text-2xl">Ori keren</h2>
         </div>
         <div className="hidden md:block">
           <ul className="flex items-center justify-center gap-8 list-none text-sm lg:text-base text-textGray">
