@@ -6,8 +6,8 @@ import icon4 from "../../assets/icon-service4.svg";
 
 export default function Service() {
   return (
-    <section className="container mx-auto px-7 py-[3.75rem]">
-      <div className="bg-bgGray rounded-3xl grid md:grid-cols-2 xl:grid-cols-3 px-7 md:px-10 xl:px-[3.75rem] gap-5 lg:gap-[3.75rem] py-10 items-center justify-center">
+    <section className="container mx-auto px-7 md:py-[3.75rem]">
+      <div className="bg-bgGray rounded-3xl grid md:grid-cols-2 xl:grid-cols-3 px-7 md:px-10 xl:px-[3.75rem] gap-5 md:gap-10 lg:gap-[3.75rem] py-10 items-center justify-center">
         <div className="flex flex-col text-center xl:text-left md:col-span-2 lg:col-span-3 xl:col-auto">
           <h4 className="font-semibold text-base text-textPrimary">
             Our Service
@@ -18,23 +18,23 @@ export default function Service() {
         </div>
         <div className="flex flex-col gap-5 lg:gap-[3.75rem]">
           <div className="flex gap-5 lg:gap-8 items-start">
-            <img src={icon1} alt="" />
+            <img src={icon1} alt="" className="w-12 lg:w-16" />
             <div>
-              <h3 className="font-semibold text-textNavy text-xl leading-8">
+              <h3 className="font-semibold text-textNavy text-base md:text-lg lg:text-xl leading-8">
                 Calculated Weather
               </h3>
-              <p className="text-base text-textGray leading-8">
+              <p className="text-sm lg:text-base text-textGray leading-6 lg:leading-8">
                 A new way to travel by air the easy and fast way.
               </p>
             </div>
           </div>
           <div className="flex gap-5 lg:gap-8 items-start">
-            <img src={icon2} alt="" />
+            <img src={icon2} alt="" className="w-12 lg:w-16" />
             <div>
-              <h3 className="font-semibold text-textNavy text-xl leading-8">
+              <h3 className="font-semibold text-textNavy text-base md:text-lg lg:text-xl leading-8">
                 Best Place to Stay
               </h3>
-              <p className="text-base text-textGray leading-8">
+              <p className="text-sm lg:text-base text-textGray leading-6 lg:leading-8">
                 A new way to travel by air the easy and fast way.
               </p>
             </div>
@@ -42,23 +42,23 @@ export default function Service() {
         </div>
         <div className="flex flex-col gap-5 lg:gap-[3.75rem]">
           <div className="flex gap-5 lg:gap-8 items-start">
-            <img src={icon3} alt="" />
+            <img src={icon3} alt="" className="w-12 lg:w-16" />
             <div>
-              <h3 className="font-semibold text-textNavy text-xl leading-8">
+              <h3 className="font-semibold text-textNavy text-base md:text-lg lg:text-xl leading-8">
                 Best Experience Flight
               </h3>
-              <p className="text-base text-textGray leading-8">
+              <p className="text-sm lg:text-base text-textGray leading-6 lg:leading-8">
                 A new way to travel by air the easy and fast way.
               </p>
             </div>
           </div>
           <div className="flex gap-5 lg:gap-8 items-start">
-            <img src={icon4} alt="" />
+            <img src={icon4} alt="" className="w-12 lg:w-16" />
             <div>
-              <h3 className="font-semibold text-textNavy text-xl leading-8">
+              <h3 className="font-semibold text-textNavy text-base md:text-lg lg:text-xl leading-8">
                 Easy-To-Use
               </h3>
-              <p className="text-base text-textGray leading-8">
+              <p className="text-sm lg:text-base text-textGray leading-6 lg:leading-8">
                 A new way to travel by air the easy and fast way.
               </p>
             </div>

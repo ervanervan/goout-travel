@@ -17,16 +17,16 @@ export default function Navbar() {
               <a href="/">Home</a>
             </li>
             <li className="hover:text-textPrimary duration-300">
-              <a href="/flight">Flight</a>
+              <a href="#flight">Flight</a>
             </li>
             <li className="hover:text-textPrimary duration-300">
-              <a href="/hotel">Hotel</a>
+              <a href="#hotel">Hotel</a>
             </li>
             <li className="hover:text-textPrimary duration-300">
-              <a href="/travelpackage">Travel Package</a>
+              <a href="#travelpackage">Travel Package</a>
             </li>
             <li className="hover:text-textPrimary duration-300">
-              <a href="/contactus">Contact Us</a>
+              <a href="#contactus">Contact Us</a>
             </li>
           </ul>
         </div>
