@@ -13,8 +13,12 @@ export default function CardDestination({
 }) {
   return (
     <div className="w-[17.50rem] shadow-xl text-start pt-4 pb-6 rounded-3xl">
-      <div className="rounded-3xl mb-4">
+      <div className="rounded-3xl mb-4 relative">
         <img src={imgUrl} alt="destination place" className="rounded-3xl" />
+        <div className="absolute top-3 right-3 bg-textSecondary opacity-70 backdrop-blur-md flex items-center gap-1 px-3 py-1 rounded-full">
+          <img src={iconStar} alt="" className="w-5" />
+          <p className="text-textWhite text-sm md:text-base">{rating}</p>
+        </div>
       </div>
       <div className="px-4">
         <h4 className="text-textNavy font-semibold text-base md:text-lg">
@@ -28,7 +32,7 @@ export default function CardDestination({
           <p className="text-textNavy font-semibold text-base md:text-lg">
             {price}
             <span className="text-textSecondary text-sm md:text-base font-normal">
-              / {type}{" "}
+              /{type}
             </span>
           </p>
           <Button isBook>Book</Button>
