@@ -8,7 +8,7 @@ import iconChair from "../../assets/icon-chair.svg";
 export default function () {
   return (
     <div className="md:py-2 xl:py-7 bg-bgWhite rounded-b-xl rounded-tr-xl">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-0 items-center justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-0 items-center justify-center">
         <div className="md:px-6 px-4 flex gap-4 items-center justify-between">
           <img src={iconMap} alt="" />
           <div>

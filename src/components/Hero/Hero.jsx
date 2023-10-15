@@ -4,7 +4,7 @@ import Tab from "../Tab/Tab";
 
 export default function Hero() {
   return (
-    <section className="relative container mx-auto px-7 pb-[3.75rem]">
+    <section className="relative container mx-auto pb-[3.75rem]">
       <div className="bg-bgGray rounded-3xl flex flex-col md:flex-row justify-between">
         <div className="px-7 md:px-10 xl:px-[3.75rem] pt-8 md:pt-8 lg:pt-16 xl:pt-24 flex-1">
           <h1 className="text-textNavy font-bold text-3xl lg:text-4xl xl:text-5xl xl:leading-[4.50rem] 2xl:w-3/4 mb-2 lg:mb-4">
