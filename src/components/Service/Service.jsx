@@ -6,7 +6,7 @@ import icon4 from "../../assets/icon-service4.svg";
 
 export default function Service() {
   return (
-    <section className="container mx-auto md:py-[3.75rem]">
+    <section className="container mx-auto md:px-7 md:py-[3.75rem]">
       <div className="bg-bgGray rounded-3xl grid md:grid-cols-2 xl:grid-cols-3 px-7 md:px-10 xl:px-[3.75rem] gap-5 md:gap-10 lg:gap-[3.75rem] py-10 items-center justify-center">
         <div className="flex flex-col text-center xl:text-left md:col-span-2 lg:col-span-3 xl:col-auto">
           <h4 className="font-semibold text-base text-textPrimary">

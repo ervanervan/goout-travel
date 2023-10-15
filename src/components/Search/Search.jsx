@@ -8,8 +8,8 @@ import iconChair from "../../assets/icon-chair.svg";
 export default function () {
   return (
     <div className="md:py-2 xl:py-7 bg-bgWhite rounded-b-xl rounded-tr-xl">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-0 items-center justify-center">
-        <div className="md:px-6 px-4 flex gap-4 items-center justify-between">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center">
+        <div className="md:px-6 px-4 flex gap-4 py-2 md:py-0 items-center">
           <img src={iconMap} alt="" />
           <div>
             <form action="">
@@ -31,12 +31,15 @@ export default function () {
           </div>
           <img src={iconGps} alt="" />
         </div>
-        <div className="md:px-6 px-4 flex gap-4 items-center justify-between">
+        <div className="md:px-6 px-4 flex gap-4 py-2 md:py-0 items-center">
           <img src={iconCalendar} alt="" />
           <div>
             <input
               id="flydate"
               type="date"
+              placeholder="dd-mm-yyyy"
+              min="2023-10-01"
+              max="2030-12-31"
               className="w-full rounded-md py-2 md:py-1 text-textNavy text-base font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
             />
             <label htmlFor="flydate" className="text-sm text-textGray">
@@ -45,7 +48,7 @@ export default function () {
           </div>
           <img src={iconGps} alt="" />
         </div>
-        <div className="md:px-6 px-4 flex gap-4 items-center justify-between">
+        <div className="md:px-6 px-4 flex gap-4 py-2 md:py-0 items-center">
           <img src={iconChair} alt="" />
           <div>
             <form action="">
@@ -69,7 +72,7 @@ export default function () {
           </div>
           <img src={iconGps} alt="" />
         </div>
-        <div className="md:px-6 flex flex-col">
+        <div className="md:px-6 py-2 md:py-0 md:py-0 flex flex-col">
           <Button isPrimary>Search Flight</Button>
         </div>
       </div>
