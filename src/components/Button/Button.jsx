@@ -9,8 +9,15 @@ export default function Button(props) {
         ${
           props.isPrimary && "bg-bgPrimary text-sm lg:text-base text-textWhite"
         } 
-        ${props.isBook && "bg-bgPrimary text-xs lg:text-sm text-textWhite"} 
+        ${
+          props.isBook &&
+          "bg-bgPrimary text-xs font-normal lg:text-sm text-textWhite"
+        } 
         ${props.isWhite && "bg-bgWhite text-sm lg:text-base text-textGray"} 
+        ${
+          props.isWhiteMore &&
+          "bg-bgWhite border border-textSecondary rounded-full text-sm lg:text-base text-textGray"
+        } 
         ${props.isSecondary && "text-textPrimary bg-bgDarkGray"} rounded-xl`}
       onClick={props.onClick}
     >

@@ -38,6 +38,7 @@ export default function () {
               id="flydate"
               type="date"
               placeholder="dd-mm-yyyy"
+              defaultValue="2023-10-15"
               min="2023-10-01"
               max="2030-12-31"
               className="w-full rounded-md py-2 md:py-1 text-textNavy text-base font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
@@ -72,7 +73,7 @@ export default function () {
           </div>
           <img src={iconGps} alt="" />
         </div>
-        <div className="md:px-6 py-2 md:py-0 md:py-0 flex flex-col">
+        <div className="md:px-6 py-2 md:py-0 flex flex-col">
           <Button isPrimary>Search Flight</Button>
         </div>
       </div>
