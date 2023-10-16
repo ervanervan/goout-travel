@@ -4,6 +4,8 @@ import Hero from "../components/Hero/Hero";
 import Service from "../components/Service/Service";
 import Package from "../components/Package/Package";
 import Destination from "../components/Destination/Destination";
+import Promotion from "../components/Promotion/Promotion";
+import Footer from "../components/Footer/Footer";
 
 const HomePage = () => {
   return (
@@ -13,6 +15,8 @@ const HomePage = () => {
       <Service />
       <Package />
       <Destination />
+      <Promotion />
+      <Footer />
     </>
   );
 };

@@ -15,9 +15,13 @@ export default function CardDestination({
     <div className="w-[17.50rem] shadow-xl text-start pt-4 pb-6 rounded-3xl">
       <div className="rounded-3xl mb-4 relative">
         <img src={imgUrl} alt="destination place" className="rounded-3xl" />
-        <div className="absolute top-3 right-3 bg-textSecondary opacity-70 backdrop-blur-md flex items-center gap-1 px-3 py-1 rounded-full">
-          <img src={iconStar} alt="" className="w-5" />
-          <p className="text-textWhite text-sm md:text-base">{rating}</p>
+        <div className="absolute top-3 right-3">
+          <div className="bg-textSecondary opacity-70 backdrop-blur-md flex items-center gap-1 px-3 py-1 rounded-full">
+            <img src={iconStar} alt="" className="w-4 md:w-5" />
+            <p className="text-textWhite text-sm md:text-base font-medium">
+              {rating}
+            </p>
+          </div>
         </div>
       </div>
       <div className="px-4">

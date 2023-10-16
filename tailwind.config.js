@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         "bgWhite": "#FFFFFF",
+        "bgDark": "#D2E0FB",
         "bgNavy": "#232631",
         "bgGray": "#FAFAFA",
         "bgPrimary": "#3258E8",

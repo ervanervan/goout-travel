@@ -73,7 +73,7 @@ export default function () {
           </div>
           <img src={iconGps} alt="" />
         </div>
-        <div className="md:px-6 py-2 md:py-0 flex flex-col">
+        <div className="md:px-6 my-4 md:my-0 flex flex-col">
           <Button isPrimary>Search Flight</Button>
         </div>
       </div>
