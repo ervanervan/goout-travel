@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import logo from "../../assets/logo-goout.svg";
 import Button from "../Button/Button";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import clsx from "clsx";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const handleOpen = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <header className="container mx-auto bg-bgWhite p-7">
@@ -41,19 +43,18 @@ export default function Navbar() {
         <div className="md:hidden cursor-pointer">
           <Bars3Icon
             className="h-6 w-6 text-textPrimary"
-            onClick={() => setIsOpen(true)}
+            onClick={handleOpen}
           />
         </div>
         <div
-          className={clsx(
-            "fixed top-0 right-0 w-full h-screen z-30 bg-black/30 backdrop-blur-md md:hidden translate-x-full transition-all",
-            isOpen && "translate-x-0"
-          )}
+          className={`fixed top-0 right-0 w-full h-screen z-30 bg-black/30 backdrop-blur-md md:hidden ${
+            isOpen ? "translate-x-full" : "translate-x-0"
+          } transition-all`}
         >
           <div className="absolute top-0 right-0 h-screen w-3/4 bg-bgWhite px-10 py-20 flex">
             <XMarkIcon
               className="h-6 w-6 text-textPrimary absolute top-7 right-7 cursor-pointer"
-              onClick={() => setIsOpen(false)}
+              onClick={handleOpen}
             />
             <ul className="flex flex-col basis-full justify-center gap-8 list-none text-sm lg:text-base text-textGray">
               <li className="hover:text-textPrimary duration-300">
