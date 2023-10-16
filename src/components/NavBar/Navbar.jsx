@@ -48,7 +48,7 @@ export default function Navbar() {
         </div>
         <div
           className={`fixed top-0 right-0 w-full h-screen z-30 bg-black/30 backdrop-blur-md md:hidden ${
-            isOpen ? "translate-x-full" : "translate-x-0"
+            isOpen ? "translate-x-0" : "translate-x-full"
           } transition-all`}
         >
           <div className="absolute top-0 right-0 h-screen w-3/4 bg-bgWhite px-10 py-20 flex">
