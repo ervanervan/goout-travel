@@ -54,7 +54,7 @@ export default function Package() {
           </div>
           <div className="flex items-center md:justify-center lg:justify-start gap-4 md:gap-8">
             <Button isPrimary>Choose Package</Button>
-            <Button isWhite>View More</Button>
+            <Button isGray>View More</Button>
           </div>
         </div>
       </div>

@@ -1,10 +1,11 @@
 import React from "react";
 import logo from "../../assets/footer-logo.svg";
+import iconFooter from "../../assets/footer-icon.png";
 
 export default function Footer() {
   return (
     <footer className="bg-bgNavy text-textWhite">
-      <div className="container mx-auto px-7 py-10 xl:py-[6.25rem]">
+      <div className="relative container mx-auto px-7 py-10 lg:py-[6.25rem]">
         <div className="flex lg:gap-[6.25rem] flex-col lg:flex-row">
           <div className="flex flex-col gap-4 basis-full lg:basis-[20%] mb-12">
             <div className="flex items-center gap-2">
@@ -77,6 +78,9 @@ export default function Footer() {
               </ul>
             </div>
           </div>
+        </div>
+        <div className="absolute bottom-0 -right-4 hidden xl:block">
+          <img src={iconFooter} alt="" className="w-[17.50rem] h-[19.50rem]" />
         </div>
       </div>
     </footer>

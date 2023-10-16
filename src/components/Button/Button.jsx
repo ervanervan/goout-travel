@@ -15,8 +15,8 @@ export default function Button(props) {
           "bg-bgPrimary text-xs font-normal lg:text-sm text-textWhite rounded-xl"
         } 
         ${
-          props.isWhite &&
-          "bg-bgWhite text-sm lg:text-base text-textGray rounded-xl"
+          props.isGray &&
+          "bg-bgGray text-sm lg:text-base text-textGray rounded-xl"
         } 
         ${
           props.isWhiteMore &&
