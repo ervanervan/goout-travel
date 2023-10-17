@@ -17,7 +17,7 @@ export default function Tab() {
             className={`py-3 px-6 rounded-tl-xl text-base font-medium ${
               activeTab === "Flight"
                 ? "bg-bgPrimary text-textWhite"
-                : "bg-bgGray text-textPrimary"
+                : "bg-bgWhite text-textPrimary"
             }`}
           >
             Flight
@@ -27,7 +27,7 @@ export default function Tab() {
             className={`py-3 px-6 rounded-tr-xl text-base font-medium ${
               activeTab === "Hotel"
                 ? "bg-bgPrimary text-textWhite"
-                : "bg-bgGray text-textPrimary"
+                : "bg-bgWhite text-textPrimary"
             }`}
           >
             Hotel
