@@ -21,8 +21,14 @@ export default function () {
                 <option>NTB, Lombok</option>
                 <option>Ubud, Bali</option>
                 <option>Bali, Nusa Penida</option>
-                <option>Sumatera Utara, Danau Toba</option>
-                <option>Jawa Tengah, Candi Borobudur</option>
+                <option>Borobudur, Jawa Tengah</option>
+                <option>Raja Ampat, Papua Barat</option>
+                <option>Bunaken, Sulawesi Utara</option>
+                <option>Danau Toba, Sumatra Utara</option>
+                <option>Labuan Bajo, Nusa Tenggara Timur</option>
+                <option>Dieng Plateau, Wonosobo, Jawa Tengah</option>
+                <option>Jawa Tengah, Magelang, Candi Borobudur</option>
+                <option>Tanjung Puting National Park, Kalimantan Tengah</option>
               </select>
               <label htmlFor="loc" className="text-sm text-textGray">
                 Select the locations
