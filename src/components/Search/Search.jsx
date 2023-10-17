@@ -16,7 +16,7 @@ export default function () {
               <select
                 id="loc"
                 name="selectloc"
-                className="text-textNavy text-base font-medium py-2 md:py-1 px-1 w-full md:appearance-none border-gray-200 rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-bgWhite dark:border-gray-700 dark:text-textNavy"
+                className="text-textNavy text-base font-medium py-2 md:py-1 px-1 w-full appearance-none border-gray-200 rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-bgWhite dark:border-gray-700 dark:text-textNavy"
               >
                 <option>NTB, Lombok</option>
                 <option>Ubud, Bali</option>
@@ -56,7 +56,7 @@ export default function () {
               <select
                 id="flytp"
                 name="typefight"
-                className="text-textNavy text-base font-medium py-2 md:py-1 px-1 w-full md:appearance-none border-gray-200 rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-bgWhite dark:border-gray-700 dark:text-textNavy"
+                className="text-textNavy text-base font-medium py-2 md:py-1 px-1 w-full appearance-none border-gray-200 rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-bgWhite dark:border-gray-700 dark:text-textNavy"
               >
                 <option>Economy</option>
                 <option>Basic Economy</option>
