@@ -16,7 +16,7 @@ export default function () {
               <select
                 id="loc"
                 name="selectloc"
-                className="w-full rounded-md py-2 md:py-1 text-textNavy text-base appearance-none font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
+                className="text-textNavy text-base font-medium py-2 md:py-1 w-full bg-bgWhite appearance-none border-gray-200 rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
               >
                 <option>NTB, Lombok</option>
                 <option>Ubud, Bali</option>
@@ -41,7 +41,7 @@ export default function () {
               defaultValue="2023-10-15"
               min="2023-10-01"
               max="2030-12-31"
-              className="w-full rounded-md py-2 md:py-1 text-textNavy text-base font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
+              className="text-textNavy text-base font-medium py-2 md:py-1 w-full bg-bgWhite appearance-none border-gray-200 rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
             />
             <label htmlFor="flydate" className="text-sm text-textGray">
               Choose Flight Date
@@ -56,7 +56,7 @@ export default function () {
               <select
                 id="flytp"
                 name="typefight"
-                className="w-full rounded-md py-2 md:py-1 text-textNavy text-base appearance-none font-medium ring-bgPrimary focus:ring-0 focus:ring-inset focus:ring-bgPrimary"
+                className="text-textNavy text-base font-medium py-2 md:py-1 w-full bg-bgWhite appearance-none border-gray-200 rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
               >
                 <option>Economy</option>
                 <option>Basic Economy</option>
