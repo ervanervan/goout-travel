@@ -56,7 +56,7 @@ export default function Navbar() {
               className="h-6 w-6 text-textPrimary absolute top-7 right-7 cursor-pointer"
               onClick={handleOpen}
             />
-            <ul className="flex flex-col basis-full justify-center gap-8 list-none text-sm lg:text-base text-textGray">
+            <ul className="flex flex-col basis-full justify-center gap-8 list-none text-base text-textGray">
               <li className="hover:text-textPrimary duration-300">
                 <a href="/">Home</a>
               </li>
