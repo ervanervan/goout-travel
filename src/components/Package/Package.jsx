@@ -8,7 +8,7 @@ export default function Package() {
     <section className="container mx-auto py-[3.75rem] lg:py-[3.75rem] pb-[3.75rem] px-7">
       <div className="flex flex-col lg:flex-row lg:px-16 gap-14 items-center justify-between">
         <div className="flex w-full md:w-4/5 gap-8 items-center justify-center order-2 lg:order-1">
-          <div className="border-4 rounded-3xl border-bgPrimary p-2">
+          <div className="border-2 lg:border-4 rounded-3xl border-bgPrimary p-2">
             <img src={imgPackage1} alt="" className="w-[18.25rem]" />
           </div>
           <div className="">
